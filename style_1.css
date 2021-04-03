@@ -1,0 +1,78 @@
+.box_1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.box_1 h1 {
+    height: 105px;
+    
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+        line-height: 100px;
+        /* or 167% */
+        
+        text-transform: capitalize;
+        
+        color: #000000;
+}
+
+.box_1 h2{
+    height: 90px;
+    
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 100px;
+    /* or 250% */
+    
+    text-transform: capitalize;
+    
+    color: #000000;
+
+}
+
+.box_2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.box_2 h2{
+    height: 90px;
+    
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 100px;
+    /* or 250% */
+    
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.box_3{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.box_3 h2{
+
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 100px;
+    /* or 250% */
+    
+    text-transform: capitalize;
+    color: #000000;
+
+}

@@ -1,0 +1,113 @@
+.logo{
+    text-align: center;
+}
+
+
+.main-footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image-footer{
+    margin-right: 25px;
+}
+
+.form-footer{
+    margin-left: 25px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.transparent{
+    position: relative;
+    padding: 60px 50px;
+    background-image: url(https://freedesignfile.com/upload/2017/10/Cartoon-zoo-illustration-vector-02.jpg);
+    background-size: cover;
+    
+}
+
+.transparent::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(0, 0, 0, .5);
+}
+
+.form-inner {
+position: relative;
+text-transform: uppercase;
+}
+
+.form-inner h3{
+color:rgb(255, 255, 255);
+font-family: 'Oswald', sans-serif;
+font-size: 25px;
+}
+
+.form-inner label {
+font-size: 'Oswald', sans-serif;
+font-size: 15px;
+font-weight: 700;
+text-decoration: underline;
+color:  rgb(216, 216, 216);
+}
+
+.form-inner input {
+width: 100%;
+border-radius: 20px;
+font-family: 'Oswald', serif;
+border-width: 0;
+font-size: 12px;
+font-weight: 150px;
+line-height: 30px;
+background: rgb(0, 0, 0, .5);
+color: white;
+margin: 10px 0px 15px 0px;
+}
+
+.form-inner input[type="submit"]{
+background-color: coral;
+font-size: 25px;
+
+}
+
+.form-inner textarea {
+width: 100%;
+border-radius: 20px;
+font-family: 'Oswald', serif;
+border-width: 0;
+font-size: 12px;
+font-weight: 150px;
+line-height: 30px;
+background: rgb(0, 0, 0, .5);
+color: white;
+resize: none;
+}
+
+main{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.box_1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 240px;
+}
+
+.box-images h2{
+    height: 240px;
+    text-align: center;
+    background-color:  #9BADCD;
+}
+
